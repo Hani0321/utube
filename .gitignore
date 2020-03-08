@@ -1,5 +1,119 @@
-# Object file
-*.o
+<!DOCTYPE html>
 
-# Ada Library Information
-*.ali
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment2</title>
+    <script src="https://kit.fontawesome.com/b47a07aa30.js" crossorigin="anonymous"></script>
+
+    <style>
+        img {
+            height: 110px;
+            width: 130px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            height: 470px;
+            width:140px;
+            background-color: white;
+        }
+
+        .flex-container1 {
+            display: flex;
+            flex-direction: column;
+            height: 470px;
+            width: 140px;
+        }
+
+        .flex-container2 {
+            display: flex;
+            flex-flow: row  ;
+            height: 470px;
+            width:50px;
+            background-color: white;
+        }
+
+
+        .flex-container1 div {
+            height: 60px;
+            width: 140px;
+        }
+
+
+        .flex-container2 div {
+            height: 110px;
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div>
+        <i class='fas fa-bars' style="font-size:20px"></i> &nbsp;
+        <i class='fab fa-youtube' style="font-size:20px; color:red;"> </i> Youtube
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+
+        <input type="text" placeholder="Search..." name="search" />
+        <button type="submit"> <i class="fas fa-search"></i></button>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <i class="fas fa-video" style="text-align:right"></i>  &nbsp;
+        <i class="fas fa-th"></i> &nbsp;
+        <i class="fas fa-bell"></i> &nbsp;
+        <i class="fas fa-user-circle"></i>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-container1">
+
+            <div style="font-family:Calibri; color:darkslategrey"><i class="fas fa-home" aria-hidden="true" style="color:red;"> </i> Home </div>
+            <div style="font-family: Calibri; color: darkslategray"><i class="fas fa-fire" aria-hidden="true"> </i> Trending </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-play-circle" aria-hidden="true"> </i>Subscriptions </div>
+            <hr />
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-folder" aria-hidden="true"></i> Library </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-clock" aria-hidden="true"></i>History </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="far fa-clock" aria-hidden="true"></i> Watch Later </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-thumbs-up" aria-hidden="true"></i>Liked Videos </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-hand-pointer" aria-hidden="true"></i>Favorites </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fab fa-android" aria-hidden="true"></i>Android </div>
+            <hr />
+            <p style="font-family:Calibri; color:darkslategray">SUBSCRIPTIONS </p>
+
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-angle-double-right" aria-hidden="true"> </i> Channel 1 </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-angle-double-right" aria-hidden="true"> </i> Channel 2 </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-angle-double-right" aria-hidden="true"> </i> Channel 3 </div>
+            <div style="font-family: Calibri; color: darkslategray"> <i class="fas fa-angle-double-right" aria-hidden="true"> </i>Channel 4</div>
+
+
+        </div>
+        
+        <div class="flex-container2">
+            
+            <div style="color:darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video1 <br /> Channel Name <br /> 184K views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video2 <br /> Channel Name <br /> 3.3M views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video3 <br /> Channel Name <br /> 3.8M views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video4 <br /> Channel Name <br /> 3.6M views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video5 <br /> Channel Name <br /> 190K views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video6 <br /> Channel Name <br /> 2.4M views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video7 <br /> Channel Name <br /> 3.3M views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video8 <br /> Channel Name <br /> 1.7M views</div>
+            <div style="color: darkslategray; font-family: Calibri"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRBxn6Z2uLgyX3A5_mfzXwv5qjgX4H6Bq7vbgQ_SSOf05AmVPG"> Video9 <br /> Channel Name <br /> 2.2M views</div>
+            
+
+
+        </div>
+     
+        </div>
+
+
+</body>
+</html>
+
+
+
